@@ -556,20 +556,36 @@ video {
   display: none;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold{
   font-weight: 700;
 }
 
-.text-lime-500{
+.text-violet-600{
   --tw-text-opacity: 1;
-  color: rgb(132 204 22 / var(--tw-text-opacity, 1));
+  color: rgb(124 58 237 / var(--tw-text-opacity, 1));
 }
 
-.underline{
-  text-decoration-line: underline;
+.text-violet-800{
+  --tw-text-opacity: 1;
+  color: rgb(91 33 182 / var(--tw-text-opacity, 1));
+}
+
+.text-violet-950{
+  --tw-text-opacity: 1;
+  color: rgb(46 16 101 / var(--tw-text-opacity, 1));
+}
+
+.text-violet-900{
+  --tw-text-opacity: 1;
+  color: rgb(76 29 149 / var(--tw-text-opacity, 1));
 }
