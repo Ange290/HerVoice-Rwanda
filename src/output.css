@@ -590,6 +590,26 @@ video {
   height: auto;
 }
 
+.h-52{
+  height: 13rem;
+}
+
+.h-\[\]{
+  height: ;
+}
+
+.h-\[20vw\]{
+  height: 20vw;
+}
+
+.h-\[40vw\]{
+  height: 40vw;
+}
+
+.h-\[100vw\]{
+  height: 100vw;
+}
+
 .w-full{
   width: 100%;
 }
@@ -604,6 +624,14 @@ video {
 
 .max-w-lg{
   max-width: 32rem;
+}
+
+.max-w-\[550px\]{
+  max-width: 550px;
+}
+
+.max-w-\[500px\]{
+  max-width: 500px;
 }
 
 .flex-1{
