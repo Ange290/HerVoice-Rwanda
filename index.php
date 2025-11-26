@@ -26,7 +26,7 @@
                 <a href="#report" class="inline-block bg-gradient-to-r from-violet-600 to-violet-800 text-white px-10 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">Report Your Case</a>
             </div>
             <div class="w-full max-w-[500px] bg-violet-100 h-64 rounded-2xl flex items-center justify-center text-violet-400">
-                <img src="" alt="">
+               <img src="src/assests/Illustration.png" alt="Illustration" class="w-[28vw] h-auto max-w-[500px] mx-auto">
             </div>
         </section>
 
