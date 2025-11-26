@@ -34,8 +34,16 @@
             <h2 class="text-center text-violet-900 text-4xl md:text-5xl font-bold mb-12">Key Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-violet-600">
-                    <h3 class="text-rose-400 text-2xl font-bold mb-2">Anonymous Reporting</h3>
+                    <h3 class="text-violet-700 text-2xl font-bold mb-2">Anonymous Reporting</h3>
                     <p class="text-gray-600">Submit complaints without revealing your identity if you choose.</p>
+                </div>
+                 <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-violet-600">
+                    <h3 class="text-violet-700 text-2xl font-bold mb-2">Organization Selection</h3>
+                    <p class="text-gray-600">Choose the NGO or organization you trust to report to. Work with local and international partners.</p>
+                </div>
+                 <div class="bg-white p-8 rounded-2xl shadow-md border-2 border-violet-600">
+                    <h3 class="text-violet-700 text-2xl font-bold mb-2">Secure Communication</h3>
+                    <p class="text-gray-600">All information is stored securely using encryption to protect your privacy.</p>
                 </div>
                 </div>
         </section>
@@ -91,7 +99,7 @@
                     </div>
 
                     <div class="text-center pt-4">
-                        <button type="submit" class="w-full md:w-auto bg-rose-500 hover:bg-rose-600 text-white font-bold py-4 px-12 rounded-full shadow-lg transform hover:-translate-y-1 transition duration-300">
+                        <button type="submit" class="w-full md:w-auto bg-violet-500 hover:bg-violet-600 text-white font-bold py-4 px-12 rounded-full shadow-lg transform hover:-translate-y-1 transition duration-300">
                             Submit Report securely
                         </button>
                     </div>
