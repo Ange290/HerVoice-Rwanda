@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../HerVoiceRwanda"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
