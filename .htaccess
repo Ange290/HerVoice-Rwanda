@@ -1,0 +1,42 @@
+# HerVoice Rwanda - Apache Configuration
+# This file ensures proper routing on InfinityFree hosting
+
+# Enable RewriteEngine
+RewriteEngine On
+
+# Set default index file
+DirectoryIndex index.php
+
+# PHP settings
+php_flag display_errors Off
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^(db_connect\.php|database\.sql)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Allow access only to PHP files you want accessible
+<FilesMatch "\.(php)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Enable error logging (useful for debugging)
+php_flag log_errors On
+
+# Ensure sessions work properly on shared hosting
+php_value session.save_path "/tmp"
