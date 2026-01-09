@@ -124,5 +124,4 @@ HerVoice/
 
 **HerVoice Rwanda** - Empowering voices, ending violence. 💜
 
-For detailed hosting instructions, see [HOSTING_GUIDE.md](HOSTING_GUIDE.md)
 This project is open-source and available for modification and distribution under the terms of the MIT License.
