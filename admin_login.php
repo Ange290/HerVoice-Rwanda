@@ -2,8 +2,8 @@
 session_start();
 
 // Hardcoded admin credentials for simplicity
-$admin_username = 'admin';
-$admin_password = 'password123';
+$admin_username = 'admin1';
+$admin_password = 'admin123';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
